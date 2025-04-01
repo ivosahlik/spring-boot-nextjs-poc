@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-export default function Home() {
+export default function Hello() {
 
     const [helloResponse, setHelloResponse] = useState<string|null>(null)
 
